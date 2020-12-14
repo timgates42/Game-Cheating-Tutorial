@@ -1009,7 +1009,7 @@ namespace rn {
 		{
 			static auto fix_seperators = [](const std::string& input)
 			{
-				// convert seperators from DOS to UNIX
+				// convert separators from DOS to UNIX
 				return std::filesystem::path(input).generic_string();
 			};
 
